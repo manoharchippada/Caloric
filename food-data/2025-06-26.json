@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-26",
+  "entries": [
+    {
+      "name": "biriyani",
+      "calories": 2000,
+      "category": "junk",
+      "mealType": "lunch",
+      "date": "2025-06-26",
+      "id": "1750963922146",
+      "timestamp": 1750963922146
+    }
+  ],
+  "totalCalories": 2000,
+  "categoryBreakdown": {
+    "junk": 2000,
+    "healthy": 0,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 2000,
+    "snack": 0,
+    "dinner": 0
+  }
+}
