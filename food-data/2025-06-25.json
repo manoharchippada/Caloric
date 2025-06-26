@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-25",
+  "entries": [
+    {
+      "name": "potato",
+      "calories": 300,
+      "category": "junk",
+      "mealType": "lunch",
+      "date": "2025-06-25",
+      "id": "1750965366284",
+      "timestamp": 1750965366284
+    }
+  ],
+  "totalCalories": 300,
+  "categoryBreakdown": {
+    "junk": 300,
+    "healthy": 0,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 300,
+    "snack": 0,
+    "dinner": 0
+  }
+}
