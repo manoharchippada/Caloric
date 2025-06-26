@@ -18,16 +18,25 @@
       "date": "2025-06-26",
       "id": "1750962507351",
       "timestamp": 1750962507351
+    },
+    {
+      "name": "bun",
+      "calories": 200,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-26",
+      "id": "1750962903627",
+      "timestamp": 1750962903627
     }
   ],
-  "totalCalories": 4300,
+  "totalCalories": 4500,
   "categoryBreakdown": {
     "junk": 4300,
-    "healthy": 0,
+    "healthy": 200,
     "workout": 0
   },
   "mealBreakdown": {
-    "breakfast": 4000,
+    "breakfast": 4200,
     "lunch": 300,
     "snack": 0,
     "dinner": 0
