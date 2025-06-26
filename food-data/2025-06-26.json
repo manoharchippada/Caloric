@@ -27,18 +27,27 @@
       "date": "2025-06-26",
       "id": "1750963980109",
       "timestamp": 1750963980109
+    },
+    {
+      "name": "apple",
+      "calories": 300,
+      "category": "junk",
+      "mealType": "snack",
+      "date": "2025-06-26",
+      "id": "1750971959015",
+      "timestamp": 1750971959015
     }
   ],
-  "totalCalories": 2700,
+  "totalCalories": 3000,
   "categoryBreakdown": {
-    "junk": 2000,
+    "junk": 2300,
     "healthy": 300,
     "workout": 400
   },
   "mealBreakdown": {
     "breakfast": 700,
     "lunch": 2000,
-    "snack": 0,
+    "snack": 300,
     "dinner": 0
   }
 }
