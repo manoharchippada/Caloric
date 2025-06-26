@@ -18,16 +18,25 @@
       "date": "2025-06-26",
       "id": "1750963953992",
       "timestamp": 1750963953992
+    },
+    {
+      "name": "gym",
+      "calories": 400,
+      "category": "workout",
+      "mealType": "breakfast",
+      "date": "2025-06-26",
+      "id": "1750963980109",
+      "timestamp": 1750963980109
     }
   ],
-  "totalCalories": 2300,
+  "totalCalories": 2700,
   "categoryBreakdown": {
     "junk": 2000,
     "healthy": 300,
-    "workout": 0
+    "workout": 400
   },
   "mealBreakdown": {
-    "breakfast": 300,
+    "breakfast": 700,
     "lunch": 2000,
     "snack": 0,
     "dinner": 0
