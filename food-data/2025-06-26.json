@@ -9,16 +9,25 @@
       "date": "2025-06-26",
       "id": "1750963922146",
       "timestamp": 1750963922146
+    },
+    {
+      "name": "milk with oats",
+      "calories": 300,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-26",
+      "id": "1750963953992",
+      "timestamp": 1750963953992
     }
   ],
-  "totalCalories": 2000,
+  "totalCalories": 2300,
   "categoryBreakdown": {
     "junk": 2000,
-    "healthy": 0,
+    "healthy": 300,
     "workout": 0
   },
   "mealBreakdown": {
-    "breakfast": 0,
+    "breakfast": 300,
     "lunch": 2000,
     "snack": 0,
     "dinner": 0
