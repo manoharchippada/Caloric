@@ -54,18 +54,27 @@
       "date": "2025-06-26",
       "id": "1750980818442",
       "timestamp": 1750980818442
+    },
+    {
+      "name": "Chest workout",
+      "calories": 500,
+      "category": "workout",
+      "mealType": "snack",
+      "date": "2025-06-26",
+      "id": "1750980997530",
+      "timestamp": 1750980997530
     }
   ],
-  "totalCalories": 4000,
+  "totalCalories": 4500,
   "categoryBreakdown": {
     "junk": 2800,
     "healthy": 800,
-    "workout": 400
+    "workout": 900
   },
   "mealBreakdown": {
     "breakfast": 1200,
     "lunch": 2000,
-    "snack": 800,
+    "snack": 1300,
     "dinner": 0
   }
 }
