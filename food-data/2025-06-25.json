@@ -9,16 +9,25 @@
       "date": "2025-06-26",
       "id": "1750962164634",
       "timestamp": 1750962164634
+    },
+    {
+      "name": "biriyani",
+      "calories": 4000,
+      "category": "junk",
+      "mealType": "breakfast",
+      "date": "2025-06-26",
+      "id": "1750962507351",
+      "timestamp": 1750962507351
     }
   ],
-  "totalCalories": 300,
+  "totalCalories": 4300,
   "categoryBreakdown": {
-    "junk": 300,
+    "junk": 4300,
     "healthy": 0,
     "workout": 0
   },
   "mealBreakdown": {
-    "breakfast": 0,
+    "breakfast": 4000,
     "lunch": 300,
     "snack": 0,
     "dinner": 0
