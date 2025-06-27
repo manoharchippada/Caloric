@@ -9,16 +9,25 @@
       "date": "2025-06-26",
       "id": "1751003531561",
       "timestamp": 1751003531561
+    },
+    {
+      "name": "Protien+cornflaks+milk",
+      "calories": 300,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-26",
+      "id": "1751003619778",
+      "timestamp": 1751003619778
     }
   ],
-  "totalCalories": 200,
+  "totalCalories": 500,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 200,
+    "healthy": 500,
     "workout": 0
   },
   "mealBreakdown": {
-    "breakfast": 0,
+    "breakfast": 300,
     "lunch": 0,
     "snack": 0,
     "dinner": 200
