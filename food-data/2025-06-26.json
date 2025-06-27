@@ -18,17 +18,26 @@
       "date": "2025-06-26",
       "id": "1751003619778",
       "timestamp": 1751003619778
+    },
+    {
+      "name": "Dal+rice",
+      "calories": 400,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-06-26",
+      "id": "1751003655677",
+      "timestamp": 1751003655677
     }
   ],
-  "totalCalories": 500,
+  "totalCalories": 900,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 500,
+    "healthy": 900,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 300,
-    "lunch": 0,
+    "lunch": 400,
     "snack": 0,
     "dinner": 200
   }
