@@ -36,18 +36,27 @@
       "date": "2025-06-26",
       "id": "1751004637501",
       "timestamp": 1751004637501
+    },
+    {
+      "name": "Brownie",
+      "calories": 200,
+      "category": "junk",
+      "mealType": "snack",
+      "date": "2025-06-26",
+      "id": "1751007787550",
+      "timestamp": 1751007787550
     }
   ],
-  "totalCalories": 900,
+  "totalCalories": 1100,
   "categoryBreakdown": {
-    "junk": 0,
+    "junk": 200,
     "healthy": 900,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 300,
     "lunch": 400,
-    "snack": 0,
+    "snack": 200,
     "dinner": 200
   }
 }
