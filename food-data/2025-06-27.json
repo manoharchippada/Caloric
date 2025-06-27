@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-27",
+  "entries": [
+    {
+      "name": "Grilled chicken",
+      "calories": 1000,
+      "category": "healthy",
+      "mealType": "dinner",
+      "date": "2025-06-27",
+      "id": "1750984172374",
+      "timestamp": 1750984172374
+    }
+  ],
+  "totalCalories": 1000,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 1000,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 1000
+  }
+}
