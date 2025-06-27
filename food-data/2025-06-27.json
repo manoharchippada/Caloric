@@ -18,18 +18,27 @@
       "date": "2025-06-27",
       "id": "1751048973604",
       "timestamp": 1751048973604
+    },
+    {
+      "name": "Melody chocolate",
+      "calories": 18,
+      "category": "junk",
+      "mealType": "snack",
+      "date": "2025-06-27",
+      "id": "1751059457221",
+      "timestamp": 1751059457221
     }
   ],
-  "totalCalories": 935,
+  "totalCalories": 953,
   "categoryBreakdown": {
-    "junk": 0,
+    "junk": 18,
     "healthy": 935,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 585,
-    "snack": 0,
+    "snack": 18,
     "dinner": 0
   }
 }
