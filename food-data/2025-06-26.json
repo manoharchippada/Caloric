@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-26",
+  "entries": [
+    {
+      "name": "Eggs+salad",
+      "calories": 200,
+      "category": "healthy",
+      "mealType": "dinner",
+      "date": "2025-06-26",
+      "id": "1751003531561",
+      "timestamp": 1751003531561
+    }
+  ],
+  "totalCalories": 200,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 200,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 200
+  }
+}
