@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-27",
+  "entries": [
+    {
+      "name": "Milk+protein+cronfleks",
+      "calories": 350,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-27",
+      "id": "1751035801548",
+      "timestamp": 1751035801548
+    }
+  ],
+  "totalCalories": 350,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 350,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 350,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 0
+  }
+}
