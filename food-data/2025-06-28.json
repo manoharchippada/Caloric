@@ -9,17 +9,26 @@
       "date": "2025-06-28",
       "id": "1751120585672",
       "timestamp": 1751120585672
+    },
+    {
+      "name": "Paneer+ rice",
+      "calories": 450,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-06-28",
+      "id": "1751144536176",
+      "timestamp": 1751144536176
     }
   ],
-  "totalCalories": 5,
+  "totalCalories": 455,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 5,
+    "healthy": 455,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 5,
-    "lunch": 0,
+    "lunch": 450,
     "snack": 0,
     "dinner": 0
   }
