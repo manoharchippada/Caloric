@@ -27,18 +27,27 @@
       "date": "2025-06-27",
       "id": "1751059457221",
       "timestamp": 1751059457221
+    },
+    {
+      "name": "Cherrie bread frm mobil",
+      "calories": 250,
+      "category": "junk",
+      "mealType": "snack",
+      "date": "2025-06-27",
+      "id": "1751069230181",
+      "timestamp": 1751069230181
     }
   ],
-  "totalCalories": 953,
+  "totalCalories": 1203,
   "categoryBreakdown": {
-    "junk": 18,
+    "junk": 268,
     "healthy": 935,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 585,
-    "snack": 18,
+    "snack": 268,
     "dinner": 0
   }
 }
