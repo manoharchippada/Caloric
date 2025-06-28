@@ -18,18 +18,27 @@
       "date": "2025-06-28",
       "id": "1751144536176",
       "timestamp": 1751144536176
+    },
+    {
+      "name": "Dark chocolate 3 cubes",
+      "calories": 170,
+      "category": "healthy",
+      "mealType": "snack",
+      "date": "2025-06-28",
+      "id": "1751144555128",
+      "timestamp": 1751144555128
     }
   ],
-  "totalCalories": 455,
+  "totalCalories": 625,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 455,
+    "healthy": 625,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 5,
     "lunch": 450,
-    "snack": 0,
+    "snack": 170,
     "dinner": 0
   }
 }
