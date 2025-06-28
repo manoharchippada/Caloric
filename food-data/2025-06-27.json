@@ -36,11 +36,20 @@
       "date": "2025-06-27",
       "id": "1751069230181",
       "timestamp": 1751069230181
+    },
+    {
+      "name": "Burger + chickenover rice",
+      "calories": 700,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-06-27",
+      "id": "1751076496809",
+      "timestamp": 1751076496809
     }
   ],
-  "totalCalories": 1203,
+  "totalCalories": 1903,
   "categoryBreakdown": {
-    "junk": 268,
+    "junk": 968,
     "healthy": 935,
     "workout": 0
   },
@@ -48,6 +57,6 @@
     "breakfast": 350,
     "lunch": 585,
     "snack": 268,
-    "dinner": 0
+    "dinner": 700
   }
 }
