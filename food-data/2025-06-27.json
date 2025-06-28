@@ -45,11 +45,20 @@
       "date": "2025-06-27",
       "id": "1751076496809",
       "timestamp": 1751076496809
+    },
+    {
+      "name": "Sandwich ice cream hersey",
+      "calories": 250,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-06-27",
+      "id": "1751083435212",
+      "timestamp": 1751083435212
     }
   ],
-  "totalCalories": 1903,
+  "totalCalories": 2153,
   "categoryBreakdown": {
-    "junk": 968,
+    "junk": 1218,
     "healthy": 935,
     "workout": 0
   },
@@ -57,6 +66,6 @@
     "breakfast": 350,
     "lunch": 585,
     "snack": 268,
-    "dinner": 700
+    "dinner": 950
   }
 }
