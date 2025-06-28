@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-28",
+  "entries": [
+    {
+      "name": "Coffee",
+      "calories": 5,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-28",
+      "id": "1751120585672",
+      "timestamp": 1751120585672
+    }
+  ],
+  "totalCalories": 5,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 5,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 5,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 0
+  }
+}
