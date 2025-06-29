@@ -27,11 +27,20 @@
       "date": "2025-06-28",
       "id": "1751144555128",
       "timestamp": 1751144555128
+    },
+    {
+      "name": "Chicken biriyani",
+      "calories": 600,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-06-28",
+      "id": "1751163105127",
+      "timestamp": 1751163105127
     }
   ],
-  "totalCalories": 625,
+  "totalCalories": 1225,
   "categoryBreakdown": {
-    "junk": 0,
+    "junk": 600,
     "healthy": 625,
     "workout": 0
   },
@@ -39,6 +48,6 @@
     "breakfast": 5,
     "lunch": 450,
     "snack": 170,
-    "dinner": 0
+    "dinner": 600
   }
 }
