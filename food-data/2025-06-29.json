@@ -1,0 +1,26 @@
+{
+  "date": "2025-06-29",
+  "entries": [
+    {
+      "name": "Protein shake",
+      "calories": 200,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-06-29",
+      "id": "1751221302855",
+      "timestamp": 1751221302855
+    }
+  ],
+  "totalCalories": 200,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 200,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 200,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 0
+  }
+}
