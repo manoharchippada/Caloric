@@ -9,17 +9,26 @@
       "date": "2025-06-29",
       "id": "1751221302855",
       "timestamp": 1751221302855
+    },
+    {
+      "name": "Tiger rice + bajji",
+      "calories": 500,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-06-29",
+      "id": "1751221329467",
+      "timestamp": 1751221329467
     }
   ],
-  "totalCalories": 200,
+  "totalCalories": 700,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 200,
+    "healthy": 700,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 200,
-    "lunch": 0,
+    "lunch": 500,
     "snack": 0,
     "dinner": 0
   }
