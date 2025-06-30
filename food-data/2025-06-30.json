@@ -18,18 +18,27 @@
       "date": "2025-06-30",
       "id": "1751318996543",
       "timestamp": 1751318996543
+    },
+    {
+      "name": "Pineapple",
+      "calories": 100,
+      "category": "healthy",
+      "mealType": "snack",
+      "date": "2025-06-30",
+      "id": "1751319046143",
+      "timestamp": 1751319046143
     }
   ],
-  "totalCalories": 630,
+  "totalCalories": 730,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 630,
+    "healthy": 730,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 280,
-    "snack": 0,
+    "snack": 100,
     "dinner": 0
   }
 }
