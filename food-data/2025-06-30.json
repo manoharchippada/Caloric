@@ -9,17 +9,26 @@
       "date": "2025-06-30",
       "id": "1751292039201",
       "timestamp": 1751292039201
+    },
+    {
+      "name": "Egg biriyani+sambar",
+      "calories": 280,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-06-30",
+      "id": "1751318996543",
+      "timestamp": 1751318996543
     }
   ],
-  "totalCalories": 350,
+  "totalCalories": 630,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 350,
+    "healthy": 630,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
-    "lunch": 0,
+    "lunch": 280,
     "snack": 0,
     "dinner": 0
   }
