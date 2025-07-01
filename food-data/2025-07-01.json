@@ -18,18 +18,27 @@
       "date": "2025-07-01",
       "id": "1751385528861",
       "timestamp": 1751385528861
+    },
+    {
+      "name": "Walk+jog",
+      "calories": 250,
+      "category": "workout",
+      "mealType": "snack",
+      "date": "2025-07-01",
+      "id": "1751410974716",
+      "timestamp": 1751410974716
     }
   ],
-  "totalCalories": 155,
+  "totalCalories": 405,
   "categoryBreakdown": {
     "junk": 0,
     "healthy": 155,
-    "workout": 0
+    "workout": 250
   },
   "mealBreakdown": {
     "breakfast": 155,
     "lunch": 0,
-    "snack": 0,
+    "snack": 250,
     "dinner": 0
   }
 }
