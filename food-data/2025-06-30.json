@@ -27,18 +27,27 @@
       "date": "2025-06-30",
       "id": "1751319046143",
       "timestamp": 1751319046143
+    },
+    {
+      "name": "Maditerrian salad + 2 eggs",
+      "calories": 360,
+      "category": "healthy",
+      "mealType": "dinner",
+      "date": "2025-06-30",
+      "id": "1751335888990",
+      "timestamp": 1751335888990
     }
   ],
-  "totalCalories": 730,
+  "totalCalories": 1090,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 730,
+    "healthy": 1090,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 280,
     "snack": 100,
-    "dinner": 0
+    "dinner": 360
   }
 }
