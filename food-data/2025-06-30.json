@@ -45,18 +45,27 @@
       "date": "2025-06-30",
       "id": "1751335953859",
       "timestamp": 1751335953859
+    },
+    {
+      "name": "Abs+chest",
+      "calories": 250,
+      "category": "workout",
+      "mealType": "dinner",
+      "date": "2025-06-30",
+      "id": "1751336003385",
+      "timestamp": 1751336003385
     }
   ],
-  "totalCalories": 1090,
+  "totalCalories": 1340,
   "categoryBreakdown": {
     "junk": 0,
     "healthy": 1090,
-    "workout": 0
+    "workout": 250
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 280,
     "snack": 100,
-    "dinner": 360
+    "dinner": 610
   }
 }
