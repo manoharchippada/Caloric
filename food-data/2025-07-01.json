@@ -9,16 +9,25 @@
       "date": "2025-07-01",
       "id": "1751385516967",
       "timestamp": 1751385516967
+    },
+    {
+      "name": "Smoothie",
+      "calories": 150,
+      "category": "healthy",
+      "mealType": "breakfast",
+      "date": "2025-07-01",
+      "id": "1751385528861",
+      "timestamp": 1751385528861
     }
   ],
-  "totalCalories": 5,
+  "totalCalories": 155,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 5,
+    "healthy": 155,
     "workout": 0
   },
   "mealBreakdown": {
-    "breakfast": 5,
+    "breakfast": 155,
     "lunch": 0,
     "snack": 0,
     "dinner": 0
