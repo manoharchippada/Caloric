@@ -27,17 +27,26 @@
       "date": "2025-07-01",
       "id": "1751410974716",
       "timestamp": 1751410974716
+    },
+    {
+      "name": "Sambar+rice+banana chips",
+      "calories": 300,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-07-01",
+      "id": "1751411398593",
+      "timestamp": 1751411398593
     }
   ],
-  "totalCalories": 405,
+  "totalCalories": 705,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 155,
+    "healthy": 455,
     "workout": 250
   },
   "mealBreakdown": {
     "breakfast": 155,
-    "lunch": 0,
+    "lunch": 300,
     "snack": 250,
     "dinner": 0
   }
