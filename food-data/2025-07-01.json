@@ -36,6 +36,15 @@
       "date": "2025-07-01",
       "id": "1751411398593",
       "timestamp": 1751411398593
+    },
+    {
+      "name": "Creatine+water",
+      "calories": 0,
+      "category": "healthy",
+      "mealType": "dinner",
+      "date": "2025-07-01",
+      "id": "1751483650198",
+      "timestamp": 1751483650198
     }
   ],
   "totalCalories": 705,
