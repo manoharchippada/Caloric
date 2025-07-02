@@ -18,18 +18,27 @@
       "date": "2025-07-02",
       "id": "1751483764156",
       "timestamp": 1751483764156
+    },
+    {
+      "name": "Milk+protein+cornflex",
+      "calories": 300,
+      "category": "healthy",
+      "mealType": "snack",
+      "date": "2025-07-02",
+      "id": "1751491545663",
+      "timestamp": 1751491545663
     }
   ],
-  "totalCalories": 750,
+  "totalCalories": 1050,
   "categoryBreakdown": {
     "junk": 0,
-    "healthy": 750,
+    "healthy": 1050,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 350,
     "lunch": 400,
-    "snack": 0,
+    "snack": 300,
     "dinner": 0
   }
 }
