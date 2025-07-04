@@ -45,11 +45,20 @@
       "date": "2025-07-02",
       "id": "1751592392104",
       "timestamp": 1751592392104
+    },
+    {
+      "name": "Cake 1 slice",
+      "calories": 250,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-07-02",
+      "id": "1751592419780",
+      "timestamp": 1751592419780
     }
   ],
-  "totalCalories": 1400,
+  "totalCalories": 1650,
   "categoryBreakdown": {
-    "junk": 0,
+    "junk": 250,
     "healthy": 1400,
     "workout": 0
   },
@@ -57,6 +66,6 @@
     "breakfast": 350,
     "lunch": 400,
     "snack": 300,
-    "dinner": 350
+    "dinner": 600
   }
 }
