@@ -9,18 +9,27 @@
       "date": "2025-07-03",
       "id": "1751592445084",
       "timestamp": 1751592445084
+    },
+    {
+      "name": "Cake 1 slice + banana chips",
+      "calories": 350,
+      "category": "junk",
+      "mealType": "snack",
+      "date": "2025-07-03",
+      "id": "1751592477072",
+      "timestamp": 1751592477072
     }
   ],
-  "totalCalories": 500,
+  "totalCalories": 850,
   "categoryBreakdown": {
-    "junk": 0,
+    "junk": 350,
     "healthy": 500,
     "workout": 0
   },
   "mealBreakdown": {
     "breakfast": 0,
     "lunch": 500,
-    "snack": 0,
+    "snack": 350,
     "dinner": 0
   }
 }
