@@ -41,7 +41,7 @@ if total_calories > target:
 
     # Create MIME message
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"Calorie Alert for {today}"
+    msg["Subject"] = f"🔥 Calorie Alert! You’ve hit {{total_calories}} kcal today"
     msg["From"] = sender
     msg["To"] = recipient
     msg.attach(MIMEText(html_content, "html"))
