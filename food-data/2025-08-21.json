@@ -1,0 +1,26 @@
+{
+  "date": "2025-08-21",
+  "entries": [
+    {
+      "name": "Bread + peanut butter",
+      "calories": 220,
+      "category": "healthy",
+      "mealType": "lunch",
+      "date": "2025-08-21",
+      "id": "1755803626616",
+      "timestamp": 1755803626616
+    }
+  ],
+  "totalCalories": 220,
+  "categoryBreakdown": {
+    "junk": 0,
+    "healthy": 220,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 220,
+    "snack": 0,
+    "dinner": 0
+  }
+}
