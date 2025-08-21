@@ -1,7 +1,7 @@
 name: Calorie tracking workflow
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+    - cron: "*/3 * * * *"  # Runs every 3 minutes
   workflow_dispatch:
 jobs:
   track_calories:
