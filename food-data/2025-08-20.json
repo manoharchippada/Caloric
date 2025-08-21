@@ -9,11 +9,20 @@
       "date": "2025-08-20",
       "id": "1755740432202",
       "timestamp": 1755740432202
+    },
+    {
+      "name": "Dinner",
+      "calories": 1600,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-08-20",
+      "id": "1755743951140",
+      "timestamp": 1755743951140
     }
   ],
-  "totalCalories": 500,
+  "totalCalories": 2100,
   "categoryBreakdown": {
-    "junk": 500,
+    "junk": 2100,
     "healthy": 0,
     "workout": 0
   },
@@ -21,6 +30,6 @@
     "breakfast": 0,
     "lunch": 0,
     "snack": 0,
-    "dinner": 500
+    "dinner": 2100
   }
 }
