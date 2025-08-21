@@ -4,7 +4,7 @@ import smtplib
 import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from datetime import date
+from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
 import pytz
 
