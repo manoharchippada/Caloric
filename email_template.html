@@ -1,33 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Alert</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .alert {
-            color: red;
-            font-weight: bold;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+            border-radius: 20px 20px 0 0;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .alert-icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        .title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .greeting {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .alert-message {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 25px 0;
+            font-weight: 600;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            box-shadow: 0 8px 25px rgba(238, 90, 82, 0.3);
+            transform: translateY(0);
+            transition: transform 0.3s ease;
+        }
+
+        .alert-message:hover {
+            transform: translateY(-5px);
+        }
+
+        .stats-section {
+            margin: 30px 0;
+        }
+
+        .breakdown-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .breakdown-list {
+            list-style: none;
+            text-align: left;
+        }
+
+        .breakdown-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .breakdown-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .junk {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: #c44569;
+        }
+
+        .healthy {
+            background: linear-gradient(135deg, #a8e6cf, #7fcdcd);
+            color: #27ae60;
+        }
+
+        .workout {
+            background: linear-gradient(135deg, #ffd3a5, #fd9853);
+            color: #e67e22;
+        }
+
+        .category-icon {
+            margin-right: 10px;
+            font-size: 1.3rem;
+        }
+
+        .category-value {
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        .action-message {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            box-shadow: 0 8px 25px rgba(116, 185, 255, 0.3);
+        }
+
+        .checkmark {
+            margin-left: 10px;
+            font-size: 1.3rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 30px 20px;
+            }
+
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .alert-message,
+            .action-message {
+                font-size: 1rem;
+            }
+        }
+
+        /* Subtle animations */
+        .container {
+            animation: slideUp 0.6s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
 
 <body>
-    <h2>Calorie Alert 🚨</h2>
-    <p>Hello,</p>
-    <p class="alert">Your calorie intake for <b>{{ date }}</b> has reached <b>{{ total_calories }}</b>,
-        which is above your target of <b>{{ target }}</b>.</p>
+    <div class="container">
+        <div class="header">
+            <div class="alert-icon">🚨</div>
+            <h1 class="title">Calorie Alert</h1>
+            <p class="greeting">Hello there!</p>
+        </div>
 
-    <p>Breakdown:</p>
-    <ul>
-        <li>Junk: {{ category_breakdown.junk }}</li>
-        <li>Healthy: {{ category_breakdown.healthy }}</li>
-        <li>Workout: {{ category_breakdown.workout }}</li>
-    </ul>
+        <div class="alert-message">
+            Your calorie intake for <strong>{{ date }}</strong> has reached <strong>{{ total_calories }}</strong>, which
+            is above your target of <strong>{{ target }}</strong>.
+        </div>
 
-    <p>Please review your meals and adjust accordingly ✅.</p>
+        <div class="stats-section">
+            <h3 class="breakdown-title">📊 Breakdown:</h3>
+            <ul class="breakdown-list">
+                <li class="breakdown-item junk">
+                    <span><span class="category-icon">🍟</span>Junk Food</span>
+                    <span class="category-value">{{ category_breakdown.junk }}</span>
+                </li>
+                <li class="breakdown-item healthy">
+                    <span><span class="category-icon">🥗</span>Healthy Food</span>
+                    <span class="category-value">{{ category_breakdown.healthy }}</span>
+                </li>
+                <li class="breakdown-item workout">
+                    <span><span class="category-icon">💪</span>Workout Calories</span>
+                    <span class="category-value">{{ category_breakdown.workout }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="action-message">
+            Please review your meals and adjust accordingly<span class="checkmark">✅</span>
+        </div>
+    </div>
 </body>
 
 </html>
