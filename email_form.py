@@ -1,3 +1,4 @@
+import datetime
 import json
 import smtplib
 import os
@@ -5,9 +6,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
+import pytz
 
 # Get today's date as YYYY-MM-DD
-today = date.today().strftime("%Y-%m-%d")
+tz = pytz.timezone("America/New_York")
+today = datetime.now(tz).strftime("%Y-%m-%d")
 filename = f"{today}.json"
 
 if not os.path.exists(filename):
