@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .alert {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Calorie Alert 🚨</h2>
+    <p>Hello,</p>
+    <p class="alert">Your calorie intake for <b>{{ date }}</b> has reached <b>{{ total_calories }}</b>,
+        which is above your target of <b>{{ target }}</b>.</p>
+
+    <p>Breakdown:</p>
+    <ul>
+        <li>Junk: {{ category_breakdown.junk }}</li>
+        <li>Healthy: {{ category_breakdown.healthy }}</li>
+        <li>Workout: {{ category_breakdown.workout }}</li>
+    </ul>
+
+    <p>Please review your meals and adjust accordingly ✅.</p>
+</body>
+
+</html>
