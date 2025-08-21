@@ -11,7 +11,7 @@ import pytz
 # Get today's date as YYYY-MM-DD
 tz = pytz.timezone("America/New_York")
 today = datetime.now(tz).strftime("%Y-%m-%d")
-filename = f"{today}.json"
+filename = f"food-data/{today}.json"
 
 if not os.path.exists(filename):
     print(f"❌ File {filename} not found.")
