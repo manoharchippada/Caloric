@@ -1,0 +1,26 @@
+{
+  "date": "2025-08-20",
+  "entries": [
+    {
+      "name": "donuts 2",
+      "calories": 500,
+      "category": "junk",
+      "mealType": "dinner",
+      "date": "2025-08-20",
+      "id": "1755740432202",
+      "timestamp": 1755740432202
+    }
+  ],
+  "totalCalories": 500,
+  "categoryBreakdown": {
+    "junk": 500,
+    "healthy": 0,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 0,
+    "snack": 0,
+    "dinner": 500
+  }
+}
