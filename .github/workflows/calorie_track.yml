@@ -20,7 +20,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install jinja2
           pip install pytz
-
+   
       - name: Track daily calorie intake
+        env:
+            EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+            EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+            EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+            CALORIE_TARGET: 2000
         run: |
           python email_form.py
