@@ -1,0 +1,26 @@
+{
+  "date": "2025-08-22",
+  "entries": [
+    {
+      "name": "friedrice",
+      "calories": 497,
+      "category": "junk",
+      "mealType": "lunch",
+      "date": "2025-08-22",
+      "id": "1755917215620",
+      "timestamp": 1755917215620
+    }
+  ],
+  "totalCalories": 497,
+  "categoryBreakdown": {
+    "junk": 497,
+    "healthy": 0,
+    "workout": 0
+  },
+  "mealBreakdown": {
+    "breakfast": 0,
+    "lunch": 497,
+    "snack": 0,
+    "dinner": 0
+  }
+}
